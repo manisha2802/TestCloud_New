@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteCloud2" time="113.682" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuiteCloud2" tests="1" failures="0" errors="0" time="113.682" skipped="0" timestamp="2023-06-19 13:15:17" hostname="manisha.kamble - INBL01LAP30379.brd.g-c-i.com" id="Test Suites/TestSuiteCloud2">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\manisha.kamble\\git\\TestCloud_New\\Reports\\20230619_131459\\TestSuiteCloud2\\20230619_131459"/>
+         <property name="logFiles" value="C:\\Users\\manisha.kamble\\git\\TestCloud_New\\Reports\\20230619_131459\\TestSuiteCloud2\\20230619_131459\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="manisha.kamble - INBL01LAP30379.brd.g-c-i.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;110.0.5481.30 (aedb656755c469651f01505a4f15e153fc606a1e-refs/branch-heads/5481@{#191})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir5808_829715174&quot;
+  },
+  &quot;se:cdpVersion&quot;: &quot;110.0.5481.104&quot;,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;se:cdp&quot;: &quot;ws://10.0.2.15:4444/session/9a8ed666c60e7fc66e84e2efc016636f/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49850&quot;
+  },
+  &quot;requestId&quot;: &quot;e8085ed2-20da-4c95-893c-14f67713c1d4&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;110.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 1245083,
+    &quot;organizationId&quot;: &quot;1194135&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.158"/>
+         <property name="sessionId" value="9a8ed666c60e7fc66e84e2efc016636f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCloud2" time="113.331" classname="Test Cases/TestCloud2" status="PASSED">
+         <system-out><![CDATA[2023-06-19 13:15:17 - [TEST_CASE][PASSED] - Test Cases/TestCloud2: Test Cases/TestCloud2
+
+2023-06-19 13:15:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-19 13:15:18 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-06-19 13:15:18 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-06-19 13:15:18 - [MESSAGE][INFO] - User set preference: ['browserVersion', '110']
+
+2023-06-19 13:15:18 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1194135, tunnelId=, usingTunnel=false}']
+
+2023-06-19 13:15:18 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-06-19 13:15:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-19 13:16:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-19 13:16:39 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-06-19 13:16:41 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-06-19 13:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestCloud2/Page_Demo Web Shop/a_Log in")): Object: 'Object Repository/TestCloud2/Page_Demo Web Shop/a_Log in' is clicked on
+
+2023-06-19 13:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TestCloud2/Page_Demo Web Shop/a_Log in' is clicked on
+
+2023-06-19 13:16:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Email_Email"), "msk123@gmail.com"): Text 'msk123@gmail.com' is set on object 'Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Email_Email'
+
+2023-06-19 13:16:52 - [MESSAGE][PASSED] - Text 'msk123@gmail.com' is set on object 'Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Email_Email'
+
+2023-06-19 13:16:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Password_Password"), "GqU6l9U4a6o="): Text ****** has been set on object 'Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Password_Password'
+
+2023-06-19 13:16:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Password_Password'
+
+2023-06-19 13:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button")): Object: 'Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+2023-06-19 13:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TestCloud2/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+2023-06-19 13:17:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/TestCloud2/Page_Demo Web Shop/img"), 5): Object 'Object Repository/TestCloud2/Page_Demo Web Shop/img' is present
+
+2023-06-19 13:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/TestCloud2/Page_Demo Web Shop/img' is present
+
+2023-06-19 13:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestCloud2/Page_Demo Web Shop/a_Log out")): Object: 'Object Repository/TestCloud2/Page_Demo Web Shop/a_Log out' is clicked on
+
+2023-06-19 13:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TestCloud2/Page_Demo Web Shop/a_Log out' is clicked on
+
+2023-06-19 13:17:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-19 13:17:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-19 13:15:17 - [TEST_SUITE][PASSED] - TestSuiteCloud2: Test Cases/TestCloud2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
